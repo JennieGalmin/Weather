@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" type="text/javascript"></script>
-    <script src="https://kit.fontawesome.com/8a1905b6a8.js" crossorigin="anonymous"></script>
     <title>Weatherapp</title>
 </head>
 <body>
@@ -14,16 +13,9 @@
 
     <div class="firstCard">
 
-        <div class="sunset">
-        <i class="fa-light fa-sunset" style="color: #ffffff;"></i>
-        </div>
-        <div class="sunrise">
-        <i class="fa-light fa-sunrise" style="color: #ffffff;"></i>
-        </div>
-
         <div class="text">
-        <h1 class="City Name"> City Name</h1>
-        <h2 class="temp"> Temp 20°c </h2>
+        <p class="cityName">City Name</p>
+        <p class="temp"> 20° </p>
         <div class="weekday">
             <p>Fredag</p>
         </div>
@@ -34,32 +26,40 @@
     </div>
     </div>
     
+
+
     <div class="secondCard">
 
-        <img src="clouds.png">
+        <img src="clouds.png" class="cloudsPic">
 
         <div class="search">
-            <input type="text" placeholder="Sök efter stad">
+            <input type="text" placeholder=" Sök efter stad">
             <button><img src="search.png"></button>
         </div>
 
+  
         <div class="weatherChanges">
 
-        <div class="humidity">
-            <img src="humidity.png">
-            <p>Luftfuktighet 60%</p>
+        <div class="FL" >
+        <p class="feelsLike">°</p>
+       </div>
+
+        <div class="H" >
+         <img src="humidity.png" >   
+         <p class= "humidity">60%</p>
         </div>
 
-        <div class="wind">
-            <img src="wind.png">
-            <p>Vind</p>
+        <div class="W" >
+           <img src="wind.png">
+            <p class="wind"> 3 m/s</p>
         </div>
+        
 
-        <div class="airPressure">
-            <img src="airPressure.png">
-            <p>Lufttryck</p>
-        </div>
+        <div class="A">
+        <p class="airPressure">hPa</p>
+       </div>
 
+       
     </div>
 
     </div>
